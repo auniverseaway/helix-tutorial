@@ -198,7 +198,7 @@ function loadBlocks(config, suppliedEl) {
     init(parentEl);
 }
 
-const postLCP = () => {
+function postLCP() {
     addStyle('/fonts/fonts.css');
     loadBlocks(config);
 };
